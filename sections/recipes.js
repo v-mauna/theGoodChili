@@ -1,6 +1,5 @@
 
-import Spoon from '../images/spoon.jpeg'
-
+import Spoon from '../public/images/spoon.jpeg'
 const Recipes = () => (
   <div className='container'>
     <style jsx>
