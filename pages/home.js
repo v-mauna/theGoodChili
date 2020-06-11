@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Chilis from './images/chiliPeppers.jpg'
-import Recipes from './sections/recipes'
-import Roots from './sections/roots'
+import Recipes from '../sections/recipes'
+import Roots from '../sections/roots'
 const Home = () => (
   <div className='container'>
     <style jsx>
