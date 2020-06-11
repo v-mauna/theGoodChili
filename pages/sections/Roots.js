@@ -19,13 +19,17 @@ const Roots = () => (
           line-height: 2em;
         }
         .roots {
+          background:repeating-linear-gradient(
+          -35deg,
+          rgb(238, 65, 136),
+          rgb(238, 65, 136) 10px,
+          white 10px,
+          white 20px );
           display: flex;
-          background: linear-gradient(-90deg, rgb(166, 213, 223) 50%, white 45%);
           width: 100vw;
-          height: 40vw;
+          height: 60vh;
           padding: 0;
-          margin: 0;
-          margin-bottom: auto;
+          margin: auto;
           box-sizing: border-box;
         }
 
@@ -34,45 +38,48 @@ const Roots = () => (
           font-family: 'Poppins',sans-serif;
         }
         .roots p{
+          font-size: 14px;
+          background: white;
           font-family: 'Work Sans', sans-serif;
           font-weight: 800;
           letter-spacing: 3px;
           width: 50vw;
           margin: auto;
           padding: 1em;
-          height: 60vw;
-          color: white;
+          height: 50vh;
+          color: rgb(238, 65, 136);
           text-align: center;
         }
         .roots img{
           width: 50vw;
+          opacity: .8;
         }
 
         .roots a {
-          color: white;
+          color: rgb(238, 65, 136);
           font-size: 12px;
           width: 100px;
           text-decoration: none;
-          border: 3px solid white;
+          border: 3px solid rgb(238, 65, 136);
           padding: 1em;
         }
         .roots a:hover{
-          background: white;
-          color: rgb(166, 213, 223);
+          background: rgb(238, 65, 136);
+          color: white;
         }
-        .break{
+{
           height: 30px;
         }
       `}
     </style>
     <div className='roots'>
-    <img src={RootImg}/>
+
       <p>
       <h2>Our Roots</h2>
       <br/>
       Once upon a time there was a girl with a high MSG sensitivity and an insatiable appetite for everything in the Asian grocer aisle…
       <div className='break'/>
-      <a href='/about'>Learn More</a>
+      <a href='/about'>Tell Me More</a>
       </p>
      
     </div>

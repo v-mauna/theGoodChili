@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Chilis from './images/chiliPeppers.jpg'
-import Roots from './sections/Roots'
+import Recipes from './sections/recipes'
+import Roots from './sections/roots'
 const Home = () => (
   <div className='container'>
     <style jsx>
@@ -59,8 +60,12 @@ const Home = () => (
         }
 
         .content a:hover {
-          color: white;
-          background: rgb(166, 213, 223);
+          color: rgb(207, 217, 48);
+          background: white;
+        }
+        .section{
+          height: 60vh;
+          margin-top: 1em;
         }
         #header-spacer{
             height: 30px;
@@ -92,8 +97,12 @@ const Home = () => (
           
       </div>
     </header>
-
-    <Roots/>     
+    <div className='section'>
+    <Roots/> 
+    </div>
+    <div className='section'>
+    <Recipes/>
+    </div>    
   </div>
 )
 

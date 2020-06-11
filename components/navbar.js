@@ -96,7 +96,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link href='/kickIt'>
+          <Link href='/recipes'>
             <a title='How We Kick It'>How We Kick It</a>
           </Link>
         </li>
