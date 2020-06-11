@@ -1,6 +1,4 @@
-import Kitchen from '../images/kitchen.jpg'
-import Spoon from '../images/spoon.jpeg'
-import RootImg from '../images/roots.jpg'
+
 
 const Roots = () => (
   <div className='container'>
