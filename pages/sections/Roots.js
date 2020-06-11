@@ -56,7 +56,7 @@ const Roots = () => (
         .roots a {
           color: rgb(238, 65, 136);
           font-size: 12px;
-          width: 100px;
+          width: 200px;
           text-decoration: none;
           border: 3px solid rgb(238, 65, 136);
           padding: 1em;
